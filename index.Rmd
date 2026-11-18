@@ -2,7 +2,13 @@
 title: "01_primer.Rmd"
 author: "MTF"
 date: "2026-11-18"
-output: html_document
+output: 
+  github_document:
+    html_preview: false
+  html_document:
+      toc: true 
+      number_sections: true
+  
 ---
 
 ```{r setup, include=FALSE}
